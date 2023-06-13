@@ -28,8 +28,9 @@ Follow these steps to get started with the project:
 
 1. Create a new conda environment: `conda create -n mapet python=3.8.16`
 2. Activate the environment: `conda activate mapet`
-3. Change directory to the project root: `cd MaPeT`
-4. Install the required dependencies: `pip install -r requirements.txt`
+3. Clone the repository: `git clone https://github.com/aimagelab/MaPeT.git`
+4. Change directory to the project root: `cd MaPeT`
+5. Install the required dependencies: `pip install -r requirements.txt`
 
 To run validation with the default parameters, run the following command:
 
