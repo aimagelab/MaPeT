@@ -1,5 +1,8 @@
 <div align="center">
   <h1>MaPeT: Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training </h1>
+
+  [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.07346)
+
 </div>
 
 [**Lorenzo Baraldi**](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=163)**&ast;**,
@@ -11,7 +14,7 @@
 
 **&ast;** Equal contribution.
 
-This is the **official repository** for the paper [Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training]().
+This is the **official repository** for the paper [Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training](https://arxiv.org/abs/2306.07346).
 
 ## Overview
 
@@ -21,6 +24,18 @@ This is the **official repository** for the paper [Learning to Mask and Permute 
 
 >**Abstract**: <br>
 > The use of self-supervised pre-training has emerged as a promising approach to enhance the performance of visual tasks such as image classification. In this context, recent approaches have employed the Masked Image Modeling paradigm, which pre-trains a backbone by reconstructing visual tokens associated with randomly masked image patches. This masking approach, however, introduces noise into the input data during pre-training, leading to discrepancies that can impair performance during the fine-tuning phase. Furthermore, input masking neglects the dependencies between corrupted patches, increasing the inconsistencies observed in downstream fine-tuning tasks. To overcome these issues, we propose a new self-supervised pre-training approach, named Masked and Permuted Vision Transformer (**MaPeT**), that employs autoregressive and permuted predictions to capture intra-patch dependencies. In addition, **MaPeT** employs auxiliary positional information to reduce the disparity between the pre-training and fine-tuning phases. In our experiments, we employ a fair setting to ensure reliable and meaningful comparisons and conduct investigations on multiple visual tokenizers, including our proposed _k_-CLIP which directly employs discretized CLIP features. Our results demonstrate that **MaPeT** achieves competitive performance on ImageNet, compared to baselines and competitors under the same model setting.
+
+## Citation
+If you make use of our work, please cite our paper:
+
+```bibtex
+@article{baraldi2023learning,
+      title={Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training}, 
+      author={Lorenzo Baraldi and Roberto Amoroso and Marcella Cornia and Lorenzo Baraldi and Andrea Pilzer and Rita Cucchiara},
+      journal={arXiv preprint arXiv:2306.07346},
+      year={2023},
+}
+```
 
 ## Getting Started
 
