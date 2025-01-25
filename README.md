@@ -14,7 +14,7 @@
 
 **&ast;** Equal contribution.
 
-This is the **official repository** for the paper [Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training](https://arxiv.org/abs/2306.07346).
+This is the **official repository** for the paper [Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training](https://arxiv.org/abs/2306.07346) (Computer Vision and Image Understanding, 2025).
 
 ## Overview
 
@@ -29,11 +29,11 @@ This is the **official repository** for the paper [Learning to Mask and Permute 
 If you make use of our work, please cite our paper:
 
 ```bibtex
-@article{baraldi2023learning,
-      title={Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training}, 
+@article{baraldi2025learning,
+      title={{Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training}}, 
       author={Lorenzo Baraldi and Roberto Amoroso and Marcella Cornia and Lorenzo Baraldi and Andrea Pilzer and Rita Cucchiara},
-      journal={arXiv preprint arXiv:2306.07346},
-      year={2023},
+      journal={Computer Vision and Image Understanding},
+      year={2025},
 }
 ```
 
@@ -69,11 +69,6 @@ This project makes use of code on the following external code repositories:
 - [CLIP](https://github.com/openai/CLIP): OpenAI's CLIP (Contrastive Language-Image Pretraining) model.
 - [Faiss](https://github.com/facebookresearch/faiss): Faiss is a library for efficient similarity search and clustering of dense vectors.
 
-## TODO
-- [x] model weights
-- [x] inference code
-- [ ] training code
-
 
 ## Acknowledgements
-We thank CINECA for providing computational resources. This work has partially been supported by the projects PNRR-M4C2 (PE00000013) "FAIR - Future Artificial Intelligence Research" funded by the European Commission and "ELSA - European Lighthouse on Secure and Safe AI" funded by the EU (GA 101070617).
+We acknowledge the CINECA award under the ISCRA initiative, for the availability of high-performance computing resources. This work has partially been supported by the PNRR-M4C2 (PE00000013) project “FAIR - Future Artificial Intelligence Research” and the Horizon Europe project “ELSA - European Lighthouse on Secure and Safe AI” (GA 101070617), both funded by the European Union.
