@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>MaPeT: Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training </h1>
+  <h1>[CVIU'25] MaPeT: Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training </h1>
 
   [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.07346)
 
